@@ -18528,3 +18528,220 @@ body .steadysets-icon-book2:before{
 body #search-outer #search #close a span{
   font-size:20px
 }
+
+
+/*
+CUSTOM STYLES
+*******************************************************************************************/
+html body a:hover {
+  color:#9f9f9f !important;
+}
+html body h3 {
+  max-width:95%;
+}
+html body.material .portfolio-items[data-ps="9"] .col img {
+  border-radius: 0;
+}
+html body #header-space {
+  height:0 !important;
+}
+body[data-header-resize="1"] .container-wrap {
+  margin:0;
+  padding:0;
+}
+html body #header-outer {
+  background-color:transparent;
+}
+html body #intro .row-bg.using-image {
+  width: 55vw;
+  left: auto;
+  right: 0;
+}
+html body #intro .inner-wrap.using-image {
+  background-color:#0f0f0f;
+}
+html body .portfolio-items .work-meta h4, .main-content .portfolio-items .work-meta h4 {
+  font-weight: 900;
+  font-size: 22px;
+}
+html body .bk-top-left.wpb_column[data-bg-cover="true"] .column-image-bg {
+  background-position: top left;
+}
+html body #header-outer.small-nav {
+  background-color: #010101 !important;
+}
+#header-outer.small-nav a#logo {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.wpb_column:not([class*="vc_col-xs"]) {
+  margin-bottom: 0 !important;
+}
+html body .first-section h1 {
+  margin: 0 !important;
+  font-size: 6.5vw;
+  line-height: 7.5vw;
+}
+html body #intro h1 {
+  margin: 0 !important;
+  font-size: 6vw;
+  line-height: 7vw;
+}
+.home-skills ul {
+  margin: 0;
+}
+.home-skills ul li {
+  list-style: none !important;
+  border-bottom: 1px solid #fff;
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+}
+html body #footer-outer .container .row {
+  padding: 15vh 0 10vh;
+}
+#footer-widgets .container .row {
+  border-top: 6px solid white;
+}
+html body #footer-outer h3 {
+  color: white;
+  font-size: 50px;
+  line-height: 60px;
+}
+html body #footer-outer p {
+  font-size:13px;
+  color:rgba(255,255,255,0.4);
+}
+html body.page-id-10 #footer-widgets .container .row {
+  border-top:0;
+}
+.project-block {
+  transition-duration:0.5s;
+}
+.project-block .project-block-text {
+  opacity:0;
+  transition-duration:0.5s;
+}
+.project-block:hover .project-block-text {
+  opacity:1;
+}
+.project-block .project-block-text * {
+  margin-bottom:0;
+  padding-bottom:0;
+}
+.wpb_column.project-block .column-bg-overlay-wrap {
+  opacity:0;
+}
+.wpb_column.project-block:hover .column-bg-overlay-wrap {
+  opacity:1;
+}
+html body .iwithtext .iwt-text {
+  padding: 0 0 0 35px;
+}
+html body [class^="icon-"].icon-default-style {
+  font-size: 20px !important;
+  line-height: 30px;
+  margin-right: 0 !important;
+  padding: 0 !important;
+  text-align: left;
+}
+html body h3 {
+  margin-bottom:35px !important;
+}
+html body .proj-sidebar .vc_column-inner {
+  border-bottom: 5px solid white;
+}
+html body .proj-frame .wpb_wrapper {
+  padding: 5vw;
+}
+img {
+  width: 100%;
+}
+@media only screen and (max-width:1100px ){
+  .proj-intro {
+      padding-top: 100px !important;
+  }
+  html body h3 {
+      font-size: 25px !important;
+      line-height: 35px !important;
+      margin-top: 35px;
+  }
+  html body #footer-outer h3 {
+      font-size: 50px !important;
+      line-height: 60px !important;
+  }
+  html body #intro .row-bg.using-image {
+      bottom: -10vh;
+      top: auto;
+      width: 35vw;
+      height: 95vh;
+      background-size: cover;
+      background-position: top left !important;
+      background-image: url(http://stephentremblett.com/wp-content/uploads/2020/04/s-bg-mobile.svg) !important;
+  }
+  html body #intro .wpb_wrapper > .divider-wrap:last-child {
+      margin-bottom: 40px !important;
+  }
+  html body .col h2 {
+      font-size: 30px;
+      line-height: 40px;
+  }
+  html body.home .vc_col-sm-8, html body.home .vc_col-sm-4 {
+      margin-bottom: 25px !important;
+  }
+  html body #header-outer {
+      background: #0f0f0f;
+  }
+  html body .photo-me {
+      margin-top:-20px !important;
+  }
+  .proj-title {
+      margin-top: 45px;
+  }
+  .proj-title h1 {
+      text-align: left !important;
+      font-size: 45px !important;
+      line-height: 55px !important;
+  }
+  html body #footer-outer .container .row {
+      padding: 75px 0;
+  }
+  html body.home #intro .nectar-split-heading {
+      margin-top: 100px !important;
+      display:block;
+  }
+  html body.home #intro .work-start .nectar-split-heading {
+      margin-top:0 !important;
+  }
+  html body.home #intro h1 {
+      font-size: 45px;
+      line-height: 55px;
+  }
+  html body.home .home-skills {
+      margin-top: -25px;
+  }
+  html body .mobile-hide {
+      display:none;
+  }
+  html body .work-start {
+      margin-top: -50px;
+  }
+  html body h4 {
+      font-size:13px !important;
+      line-height:22px;
+  }
+  html body #footer-outer .container .row h3 {
+      font-size:30px !important;
+      font-weight:bold;
+      margin-bottom:15px !important;
+  }
+  html body #footer-outer .container .row h4 {
+      margin-bottom:15px !important;
+  }
+  html body #footer-outer .container .row a {
+      font-size:16px !important;
+  }
+  html body .vc_col-sm-4 h4 {
+      margin-top: 25px;
+  }
+}
